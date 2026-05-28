@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-19'
+  last_updated: '2026-05-28'
 papers:
   wlW9_7QAAAAJ:-f6ydRqryjwC:
     citations: 5
@@ -34,7 +34,7 @@ papers:
     title: 'Mllmguard: A multi-dimensional safety evaluation suite for multimodal large language models'
     year: '2024'
   wlW9_7QAAAAJ:LkGwnXOMwfcC:
-    citations: 20
+    citations: 21
     title: A cognitive writing perspective for constrained long-form text generation
     year: '2025'
   wlW9_7QAAAAJ:MXK_kJrjxJIC:
@@ -50,7 +50,7 @@ papers:
     title: "Overview of the \u201CVoight-Kampff\u201D generative AI authorship verification task at PAN and ELOQUENT 2025"
     year: '2025'
   wlW9_7QAAAAJ:UeHWp8X0CEIC:
-    citations: 4
+    citations: 5
     title: 'HoneypotNet: Backdoor Attacks Against Model Extraction'
     year: '2025'
   wlW9_7QAAAAJ:WF5omc3nYNoC:
@@ -58,11 +58,11 @@ papers:
     title: 'Argus Inspection: Do Multimodal Large Language Models Possess the Eye of Panoptes?'
     year: '2025'
   wlW9_7QAAAAJ:Wp0gIr-vW9MC:
-    citations: 67
+    citations: 68
     title: 'Chain of history: Learning and forecasting with llms for temporal knowledge graph completion'
     year: '2024'
   wlW9_7QAAAAJ:YOwf2qJgpHMC:
-    citations: 5
+    citations: 6
     title: 'OpenRT: An Open-Source Red Teaming Framework for Multimodal LLMs'
     year: '2026'
   wlW9_7QAAAAJ:_FxGoFyzp5QC:
@@ -78,7 +78,7 @@ papers:
     title: 'SafeWork-R1: Coevolving Safety and Intelligence under the AI-45 Law'
     year: '2025'
   wlW9_7QAAAAJ:kNdYIx-mwKoC:
-    citations: 44
+    citations: 43
     title: 'Benchmarking large language models under data contamination: A survey from static to dynamic evaluation'
     year: '2025'
   wlW9_7QAAAAJ:mB3voiENLucC:
