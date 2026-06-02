@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-05-28'
+  last_updated: '2026-06-02'
 papers:
   wlW9_7QAAAAJ:-f6ydRqryjwC:
     citations: 5
@@ -10,11 +10,11 @@ papers:
     title: 'Collie: Collaborative training of large language models in an efficient way'
     year: '2023'
   wlW9_7QAAAAJ:2osOgNQ5qMEC:
-    citations: 38
+    citations: 39
     title: 'ESC-Eval: Evaluating Emotion Support Conversations in Large Language Models'
     year: '2024'
   wlW9_7QAAAAJ:5nxA0vEk-isC:
-    citations: 11
+    citations: 12
     title: 'Linguasafe: A comprehensive multilingual safety benchmark for large language models'
     year: '2025'
   wlW9_7QAAAAJ:8k81kl-MbHgC:
@@ -30,7 +30,7 @@ papers:
     title: 'SCAN: Structured Capability Assessment and Navigation for LLMs'
     year: '2025'
   wlW9_7QAAAAJ:IWHjjKOFINEC:
-    citations: 75
+    citations: 77
     title: 'Mllmguard: A multi-dimensional safety evaluation suite for multimodal large language models'
     year: '2024'
   wlW9_7QAAAAJ:LkGwnXOMwfcC:
@@ -58,7 +58,7 @@ papers:
     title: 'Argus Inspection: Do Multimodal Large Language Models Possess the Eye of Panoptes?'
     year: '2025'
   wlW9_7QAAAAJ:Wp0gIr-vW9MC:
-    citations: 68
+    citations: 69
     title: 'Chain of history: Learning and forecasting with llms for temporal knowledge graph completion'
     year: '2024'
   wlW9_7QAAAAJ:YOwf2qJgpHMC:
@@ -78,11 +78,11 @@ papers:
     title: 'SafeWork-R1: Coevolving Safety and Intelligence under the AI-45 Law'
     year: '2025'
   wlW9_7QAAAAJ:kNdYIx-mwKoC:
-    citations: 43
+    citations: 48
     title: 'Benchmarking large language models under data contamination: A survey from static to dynamic evaluation'
     year: '2025'
   wlW9_7QAAAAJ:mB3voiENLucC:
-    citations: 22
+    citations: 24
     title: 'Morphmark: Flexible adaptive watermarking for large language models'
     year: '2025'
   wlW9_7QAAAAJ:qxL8FJ1GzNcC:
