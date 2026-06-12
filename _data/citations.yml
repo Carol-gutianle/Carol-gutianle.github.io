@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-10'
+  last_updated: '2026-06-12'
 papers:
   wlW9_7QAAAAJ:-f6ydRqryjwC:
     citations: 5
@@ -30,11 +30,11 @@ papers:
     title: 'SCAN: Structured Capability Assessment and Navigation for LLMs'
     year: '2025'
   wlW9_7QAAAAJ:IWHjjKOFINEC:
-    citations: 78
+    citations: 79
     title: 'Mllmguard: A multi-dimensional safety evaluation suite for multimodal large language models'
     year: '2024'
   wlW9_7QAAAAJ:LkGwnXOMwfcC:
-    citations: 21
+    citations: 20
     title: A cognitive writing perspective for constrained long-form text generation
     year: '2025'
   wlW9_7QAAAAJ:MXK_kJrjxJIC:
@@ -70,7 +70,7 @@ papers:
     title: 'From Evasion to Concealment: Stealthy Knowledge Unlearning for LLMs'
     year: '2025'
   wlW9_7QAAAAJ:hC7cP41nSMkC:
-    citations: 7
+    citations: 6
     title: Probing the robustness of large language models safety to latent perturbations
     year: '2025'
   wlW9_7QAAAAJ:hqOjcs7Dif8C:
