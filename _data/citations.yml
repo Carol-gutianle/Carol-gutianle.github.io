@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-18'
+  last_updated: '2026-06-21'
 papers:
   wlW9_7QAAAAJ:-f6ydRqryjwC:
     citations: 5
@@ -14,7 +14,7 @@ papers:
     title: 'ESC-Eval: Evaluating Emotion Support Conversations in Large Language Models'
     year: '2024'
   wlW9_7QAAAAJ:5nxA0vEk-isC:
-    citations: 15
+    citations: 16
     title: 'Linguasafe: A comprehensive multilingual safety benchmark for large language models'
     year: '2025'
   wlW9_7QAAAAJ:8k81kl-MbHgC:
@@ -30,7 +30,7 @@ papers:
     title: 'SCAN: Structured Capability Assessment and Navigation for LLMs'
     year: '2025'
   wlW9_7QAAAAJ:IWHjjKOFINEC:
-    citations: 80
+    citations: 82
     title: 'Mllmguard: A multi-dimensional safety evaluation suite for multimodal large language models'
     year: '2024'
   wlW9_7QAAAAJ:LkGwnXOMwfcC:
@@ -45,12 +45,16 @@ papers:
     citations: 12
     title: "Word form matters: Llms\u2019 semantic reconstruction under typoglycemia"
     year: '2025'
+  wlW9_7QAAAAJ:RHpTSmoSYBkC:
+    citations: 0
+    title: 'PseudoBench: Measuring How Agentic Auto-Research Fuels Pseudoscience'
+    year: '2026'
   wlW9_7QAAAAJ:ULOm3_A8WrAC:
     citations: 77
     title: "Overview of the \u201CVoight-Kampff\u201D generative AI authorship verification task at PAN and ELOQUENT 2025"
     year: '2025'
   wlW9_7QAAAAJ:UeHWp8X0CEIC:
-    citations: 5
+    citations: 6
     title: 'HoneypotNet: Backdoor Attacks Against Model Extraction'
     year: '2025'
   wlW9_7QAAAAJ:WF5omc3nYNoC:
@@ -70,7 +74,7 @@ papers:
     title: 'From Evasion to Concealment: Stealthy Knowledge Unlearning for LLMs'
     year: '2025'
   wlW9_7QAAAAJ:hC7cP41nSMkC:
-    citations: 7
+    citations: 5
     title: Probing the robustness of large language models safety to latent perturbations
     year: '2025'
   wlW9_7QAAAAJ:hqOjcs7Dif8C:
@@ -78,7 +82,7 @@ papers:
     title: 'SafeWork-R1: Coevolving Safety and Intelligence under the AI-45 Law'
     year: '2025'
   wlW9_7QAAAAJ:kNdYIx-mwKoC:
-    citations: 52
+    citations: 51
     title: 'Benchmarking large language models under data contamination: A survey from static to dynamic evaluation'
     year: '2025'
   wlW9_7QAAAAJ:mB3voiENLucC:
