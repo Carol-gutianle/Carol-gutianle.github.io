@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-21'
+  last_updated: '2026-06-23'
 papers:
   wlW9_7QAAAAJ:-f6ydRqryjwC:
     citations: 5
@@ -14,7 +14,7 @@ papers:
     title: 'ESC-Eval: Evaluating Emotion Support Conversations in Large Language Models'
     year: '2024'
   wlW9_7QAAAAJ:5nxA0vEk-isC:
-    citations: 16
+    citations: 17
     title: 'Linguasafe: A comprehensive multilingual safety benchmark for large language models'
     year: '2025'
   wlW9_7QAAAAJ:8k81kl-MbHgC:
@@ -34,7 +34,7 @@ papers:
     title: 'Mllmguard: A multi-dimensional safety evaluation suite for multimodal large language models'
     year: '2024'
   wlW9_7QAAAAJ:LkGwnXOMwfcC:
-    citations: 21
+    citations: 22
     title: A cognitive writing perspective for constrained long-form text generation
     year: '2025'
   wlW9_7QAAAAJ:MXK_kJrjxJIC:
@@ -82,11 +82,11 @@ papers:
     title: 'SafeWork-R1: Coevolving Safety and Intelligence under the AI-45 Law'
     year: '2025'
   wlW9_7QAAAAJ:kNdYIx-mwKoC:
-    citations: 51
+    citations: 52
     title: 'Benchmarking large language models under data contamination: A survey from static to dynamic evaluation'
     year: '2025'
   wlW9_7QAAAAJ:mB3voiENLucC:
-    citations: 24
+    citations: 25
     title: 'Morphmark: Flexible adaptive watermarking for large language models'
     year: '2025'
   wlW9_7QAAAAJ:qxL8FJ1GzNcC:
