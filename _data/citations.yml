@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-23'
+  last_updated: '2026-06-25'
 papers:
   wlW9_7QAAAAJ:-f6ydRqryjwC:
     citations: 5
@@ -74,7 +74,7 @@ papers:
     title: 'From Evasion to Concealment: Stealthy Knowledge Unlearning for LLMs'
     year: '2025'
   wlW9_7QAAAAJ:hC7cP41nSMkC:
-    citations: 5
+    citations: 6
     title: Probing the robustness of large language models safety to latent perturbations
     year: '2025'
   wlW9_7QAAAAJ:hqOjcs7Dif8C:
@@ -86,7 +86,7 @@ papers:
     title: 'Benchmarking large language models under data contamination: A survey from static to dynamic evaluation'
     year: '2025'
   wlW9_7QAAAAJ:mB3voiENLucC:
-    citations: 25
+    citations: 26
     title: 'Morphmark: Flexible adaptive watermarking for large language models'
     year: '2025'
   wlW9_7QAAAAJ:qxL8FJ1GzNcC:
