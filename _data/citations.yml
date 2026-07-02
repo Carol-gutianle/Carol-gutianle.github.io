@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-06-25'
+  last_updated: '2026-07-02'
 papers:
   wlW9_7QAAAAJ:-f6ydRqryjwC:
-    citations: 5
+    citations: 6
     title: 'Invisible Entropy: Towards Safe and Efficient Low-Entropy LLM Watermarking'
     year: '2025'
   wlW9_7QAAAAJ:0EnyYjriUFMC:
@@ -10,11 +10,15 @@ papers:
     title: 'Collie: Collaborative training of large language models in an efficient way'
     year: '2023'
   wlW9_7QAAAAJ:2osOgNQ5qMEC:
-    citations: 40
+    citations: 42
     title: 'ESC-Eval: Evaluating Emotion Support Conversations in Large Language Models'
     year: '2024'
+  wlW9_7QAAAAJ:4JMBOYKVnBMC:
+    citations: 7
+    title: Probing the Safety Robustness of LLMs in Latent Space
+    year: '2026'
   wlW9_7QAAAAJ:5nxA0vEk-isC:
-    citations: 17
+    citations: 18
     title: 'Linguasafe: A comprehensive multilingual safety benchmark for large language models'
     year: '2025'
   wlW9_7QAAAAJ:8k81kl-MbHgC:
@@ -26,15 +30,15 @@ papers:
     title: Fair Text-Attributed Graph Representation Learning
     year: '2025'
   wlW9_7QAAAAJ:HDshCWvjkbEC:
-    citations: 1
+    citations: 2
     title: 'SCAN: Structured Capability Assessment and Navigation for LLMs'
     year: '2025'
   wlW9_7QAAAAJ:IWHjjKOFINEC:
-    citations: 82
+    citations: 87
     title: 'Mllmguard: A multi-dimensional safety evaluation suite for multimodal large language models'
     year: '2024'
   wlW9_7QAAAAJ:LkGwnXOMwfcC:
-    citations: 22
+    citations: 25
     title: A cognitive writing perspective for constrained long-form text generation
     year: '2025'
   wlW9_7QAAAAJ:MXK_kJrjxJIC:
@@ -58,35 +62,31 @@ papers:
     title: 'HoneypotNet: Backdoor Attacks Against Model Extraction'
     year: '2025'
   wlW9_7QAAAAJ:WF5omc3nYNoC:
-    citations: 4
+    citations: 5
     title: 'Argus Inspection: Do Multimodal Large Language Models Possess the Eye of Panoptes?'
     year: '2025'
   wlW9_7QAAAAJ:Wp0gIr-vW9MC:
-    citations: 69
+    citations: 73
     title: 'Chain of history: Learning and forecasting with llms for temporal knowledge graph completion'
     year: '2024'
   wlW9_7QAAAAJ:YOwf2qJgpHMC:
-    citations: 7
+    citations: 9
     title: 'OpenRT: An Open-Source Red Teaming Framework for Multimodal LLMs'
     year: '2026'
   wlW9_7QAAAAJ:_FxGoFyzp5QC:
     citations: 20
     title: 'From Evasion to Concealment: Stealthy Knowledge Unlearning for LLMs'
     year: '2025'
-  wlW9_7QAAAAJ:hC7cP41nSMkC:
-    citations: 6
-    title: Probing the robustness of large language models safety to latent perturbations
-    year: '2025'
   wlW9_7QAAAAJ:hqOjcs7Dif8C:
     citations: 3
     title: 'SafeWork-R1: Coevolving Safety and Intelligence under the AI-45 Law'
     year: '2025'
   wlW9_7QAAAAJ:kNdYIx-mwKoC:
-    citations: 52
+    citations: 57
     title: 'Benchmarking large language models under data contamination: A survey from static to dynamic evaluation'
     year: '2025'
   wlW9_7QAAAAJ:mB3voiENLucC:
-    citations: 26
+    citations: 27
     title: 'Morphmark: Flexible adaptive watermarking for large language models'
     year: '2025'
   wlW9_7QAAAAJ:qxL8FJ1GzNcC:
