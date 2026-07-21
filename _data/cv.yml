@@ -3,9 +3,17 @@ cv:
   label: LLM Safety Researcher
   email: gtl23@mails.tsinghua.edu.cn
   website: https://github.com/Carol-gutianle
-  summary: Focused on LLM safety, alignment, and robust evaluation.
+  summary: Researcher at Tencent, working on conversational LLMs and LLM safety.
 
   sections:
+    Experience:
+      - company: Tencent
+        position: Researcher
+        start_date: 2026
+        end_date: Present
+        url: "https://www.tencent.com/en-us/"
+        summary: "Working on conversational LLMs."
+
     Education:
       - institution: Tsinghua University
         area: Electronic Information
@@ -36,8 +44,9 @@ cv:
         url: "https://arxiv.org/abs/2505.14112"
         summary: "We introduced IE, a watermarking framework for low-entropy text without origin LLMs."
 
-      - title: "**Tianle Gu**, Kexin Huang, Zongqi Wang, et al. Probing the Robustness of Large Language Models Safety to Latent Perturbations"
-        publisher: "ArXiv; Submitted to ACL 2026"
+      - title: "**Tianle Gu**, Kexin Huang, Zongqi Wang, et al. Probing the Safety Robustness of LLMs in Latent Space"
+        publisher: "Accepted by ACL 2026 Main Conference"
+        url: "https://aclanthology.org/2026.acl-long.967/"
         summary: "We proposed an adversarial attack-and-defense framework to systematically uncover and mitigate latent vulnerabilities in LLM safety."
 
       - title: "**Tianle Gu**, Kexin Huang, Ruilin Luo, et al. From Evasion to Concealment: Stealthy Knowledge Unlearning for LLMs"

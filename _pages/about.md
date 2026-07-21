@@ -2,17 +2,12 @@
 layout: about
 title: About
 permalink: /
-subtitle: Graduate Student @ <a href="https://iigroup.github.io/" target="_blank" style="color:#e91e63;font-weight:700;text-decoration:underline;">IIGroup</a>, Intern @ <a href="https://www.shlab.org.cn/" target="_blank" style="color:#e91e63;font-weight:700;text-decoration:underline;">ShLab</a>
+subtitle: Researcher @ <a href="https://www.tencent.com/en-us/" target="_blank" style="color:#e91e63;font-weight:700;text-decoration:underline;">Tencent</a> | M.S. from <a href="https://www.tsinghua.edu.cn/en/" target="_blank" style="color:#e91e63;font-weight:700;text-decoration:underline;">Tsinghua University</a>
 
 profile:
   align: right
-  image: life.jpg
+  image: profile_tencent.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>"理想主义者 / 一个尚未有作品的诗人"</p>
-    <p>"An idealist / a poet without works yet."</p>
-    <p>-- 詹青云(Qingyun Zhan)</p>
-
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
@@ -25,15 +20,15 @@ latest_posts:
   enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
-
 ---
 
 <div class="about-intro" markdown="1">
-I am currently a master's student in Big Data Engineering at <mark><a href="https://www.tsinghua.edu.cn/en/" target="_blank"><strong><u>Tsinghua University</u></strong></a></mark>, advised by <mark><a href="https://scholar.google.com/citations?user=4gH3sxsAAAAJ" target="_blank"><strong><u>Prof. Yujiu Yang</u></strong></a></mark>, and a research intern at <mark><a href="https://www.shlab.org.cn/" target="_blank"><strong><u>Shanghai Artificial Intelligence Laboratory</u></strong></a></mark> in Shanghai. I received my Bachelor's degree in Computer Science and Technology from <mark><a href="https://www-en.hnu.edu.cn/" target="_blank"><strong><u>Hunan University</u></strong></a></mark>.
+I am currently working at <mark><a href="https://www.tencent.com/en-us/" target="_blank"><strong><u>Tencent</u></strong></a></mark>. I received my Master’s degree in Big Data Engineering from <mark><a href="https://www.tsinghua.edu.cn/en/" target="_blank"><strong><u>Tsinghua University</u></strong></a></mark>, where I was advised by <mark><a href="https://scholar.google.com/citations?user=4gH3sxsAAAAJ" target="_blank"><strong><u>Prof. Yujiu Yang</u></strong></a></mark>. Previously, I was a research intern at <mark><a href="https://www.shlab.org.cn/" target="_blank"><strong><u>Shanghai Artificial Intelligence Laboratory</u></strong></a></mark>. I received my Bachelor’s degree in Computer Science and Technology from <mark><a href="https://www-en.hnu.edu.cn/" target="_blank"><strong><u>Hunan University</u></strong></a></mark>.
 
-My research focuses on the safety, alignment, and interpretability of large (multimodal) language models. I have worked on topics such as MLLMs Safety Evaluation, LLM Unlearning, and LLM Watermarking.
+My research focuses on the safety, alignment, evaluation, and interpretability of large language models, including multimodal language models. I have worked on topics such as multimodal LLM safety evaluation, LLM unlearning, LLM watermarking, and the evaluation of model reasoning and behavior.
 
-My long-term vision is to solve real problems through research that is minimal in design, grounded in theory, and genuinely useful in practice.
+My long-term vision is to solve real-world problems through research that is simple in design, grounded in theory, and genuinely useful in practice.
+
 </div>
 
 <section class="safety-map" aria-label="Safety Research Map">

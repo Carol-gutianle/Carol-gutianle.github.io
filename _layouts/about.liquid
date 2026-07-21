@@ -76,16 +76,5 @@ layout: default
     {% if site.newsletter and site.newsletter.enabled and site.footer_fixed %}
       {% include newsletter.liquid center=true %}
     {% endif %}
-
-    {% if page.url == '/' %}
-      <div class="mapmyvisitors">
-        <script type="text/javascript" id="mapmyvisitors" src="//mapmyvisitors.com/map.js?d=XRR6mbCv6qyuQMoOqKe2kFURvME-ZBVxGgyMN999P3o&cl=ffffff&w=a"></script>
-        <noscript>
-          <a href="https://mapmyvisitors.com/web/1c2vb" title="Visit tracker" target="_blank" rel="noopener">
-            <img src="https://mapmyvisitors.com/map.png?d=XRR6mbCv6qyuQMoOqKe2kFURvME-ZBVxGgyMN999P3o&cl=ffffff" alt="Visitor map" />
-          </a>
-        </noscript>
-      </div>
-    {% endif %}
   </article>
 </div>
