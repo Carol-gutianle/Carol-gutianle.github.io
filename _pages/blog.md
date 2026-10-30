@@ -1,9 +1,17 @@
 ---
 layout: default
 permalink: /blog/
-title: Blog
-nav: false
+title: Blogs
+nav: true
 nav_order: 1
+dropdown: true
+children:
+  - title: Explorations
+    permalink: /blog/explorations/
+  - title: Perspectives
+    permalink: /blog/perspectives/
+  - title: Reflections
+    permalink: /blog/reflections/
 pagination:
   enabled: true
   collection: posts

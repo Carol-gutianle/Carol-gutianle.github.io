@@ -14,10 +14,35 @@ layout: default
 {% endif %}
 
 <div class="post">
+  {% if page.blog_section == 'explorations' %}
+    <a class="explorations-back" href="{{ '/blog/explorations/' | relative_url }}">
+      <span aria-hidden="true">&larr;</span>
+      {% if page.lang == 'zh-CN' %}返回 Explorations{% else %}All explorations{% endif %}
+    </a>
+  {% endif %}
+  {% if page.translations %}
+    <nav class="article-languages" aria-label="{% if page.lang == 'zh-CN' %}文章语言{% else %}Article language{% endif %}">
+      {% for translation in page.translations %}
+        <a
+          href="{{ translation.url | relative_url }}"
+          lang="{{ translation.lang }}"
+          hreflang="{{ translation.lang }}"
+          {% if page.lang == translation.lang %}
+            aria-current="page"
+          {% endif %}
+        >
+          {{- translation.label -}}
+        </a>
+      {% endfor %}
+    </nav>
+  {% endif %}
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
+    {% if page.subtitle %}
+      <p class="explorations-subtitle">{{ page.subtitle }}</p>
+    {% endif %}
     <p class="post-meta">
-      Created on {{ page.date | date: '%B %d, %Y' }}
+      {% if page.lang == 'zh-CN' %}发表于 {{ page.date | date: '%Y年%m月%d日' }}{% else %}Created on {{ page.date | date: '%B %d, %Y' }}{% endif %}
       {% if page.author %}by {{ page.author }}{% endif %}
       {% assign last_date = page.last_modified_at | default: page.last_updated %}
       {% if last_date %}, last updated on {{ last_date | date: '%B %d, %Y' }}{% endif %}

@@ -1,0 +1,63 @@
+---
+layout: default
+---
+{% assign exploration_posts = site.posts | where: 'blog_section', 'explorations' | sort: 'date' | reverse %}
+
+<div class="explorations">
+  <header class="explorations-hero">
+    <p class="explorations-eyebrow">
+      {{ site.first_name }}
+      {{ site.last_name }} / Research notes
+    </p>
+    <h1>
+      {{ page.title -}}
+      <span aria-hidden="true">.</span>
+    </h1>
+    <p class="explorations-intro">{{ page.description }}</p>
+  </header>
+
+  <div class="notebook-layout">
+    <aside class="notebook-sidebar">
+      <p class="explorations-eyebrow">The notebook</p>
+      <nav class="explorations-sections" aria-label="Blog sections">
+        <a href="{{ '/blog/explorations/' | relative_url }}" aria-current="page">Explorations <span aria-hidden="true">↗</span></a>
+        <a href="{{ '/blog/perspectives/' | relative_url }}">Perspectives</a>
+        <a href="{{ '/blog/reflections/' | relative_url }}">Reflections</a>
+      </nav>
+      <p class="notebook-sidebar-note">
+        Questions worth testing.<br>
+        Ideas worth revisiting.
+      </p>
+    </aside>
+
+    <section class="explorations-index" aria-labelledby="explorations-index-title">
+      <div class="explorations-index-heading">
+        <h2 id="explorations-index-title">Notes &amp; experiments</h2>
+        <span>
+          {{- exploration_posts.size }}
+          {% if exploration_posts.size == 1 %}entry{% else %}entries{% endif -%}
+        </span>
+      </div>
+      {% for post in exploration_posts %}
+        <article class="notebook-entry">
+          <div class="notebook-entry-meta">
+            <span class="notebook-entry-number">Note {{ forloop.rindex | prepend: '00' | slice: -3, 3 }}</span>
+            <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: '%b %-d, %Y' }}</time>
+          </div>
+          <h3>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          </h3>
+          <p class="explorations-summary">{{ post.description | escape }}</p>
+          <div class="notebook-entry-footer">
+            <span>{{ post.content | strip_html | number_of_words | divided_by: 180 | plus: 1 }} min read</span>
+            <a class="explorations-read" href="{{ post.url | relative_url }}">Read note <span aria-hidden="true">→</span></a>
+          </div>
+        </article>
+      {% else %}
+        <p class="explorations-empty">New questions, experiments, and essays will appear here.</p>
+      {% endfor %}
+      {{ content }}
+      <p class="explorations-colophon">Research is a conversation, not a finished answer.</p>
+    </section>
+  </div>
+</div>
